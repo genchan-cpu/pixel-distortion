@@ -1,12 +1,49 @@
-<<<<<<< HEAD
-# pixel-distortion
-=======
-# React + Vite
+# Pixel Distortion Effect
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a React + Three.js implementation of a pixel distortion effect, inspired by [Codrops' Pixel Distortion Effect tutorial](https://tympanus.net/codrops/2022/01/12/pixel-distortion-effect-with-three-js/). The effect creates an interactive distortion on images based on mouse movement.
 
-Currently, two official plugins are available:
+## Images
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
->>>>>>> master
+Photos used in this project are from [Unsplash](https://unsplash.com/), a free and open source image library.
+
+## Overview
+
+This implementation uses modern React and Three.js tooling, specifically:
+
+- React Three Fiber (@react-three/fiber)
+- React Three Drei (@react-three/drei)
+- Leva for interactive controls
+- Vite as the build tool
+
+## Features
+
+- Real-time pixel distortion based on mouse movement
+- Configurable parameters using Leva controls:
+  - Grid size
+  - Mouse influence factor
+  - Distortion strength
+  - Relaxation speed
+- Orthographic camera view
+- Shader-based rendering
+
+## Technical Details
+
+The distortion effect is achieved through:
+
+- Custom shader materials (vertex and fragment shaders)
+- Data texture for storing distortion values
+- Mouse movement velocity calculations
+- Dynamic texture updates
+
+## Installation
+
+```bash
+# Clone the repository
+git clone [your-repo-url]
+
+# Install dependencies
+npm install or pnpm install
+
+# Run development server
+npm run dev or pnpm run dev
+```
