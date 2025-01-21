@@ -2,7 +2,7 @@
 
 This project is a React + Three.js implementation of a pixel distortion effect, inspired by [Codrops' Pixel Distortion Effect tutorial](https://tympanus.net/codrops/2022/01/12/pixel-distortion-effect-with-three-js/). The effect creates an interactive distortion on images based on mouse movement.
 
-https://github.com/genchan-cpu/pixel-distortion/issues/1#issue-2800555712
+![Image](https://github.com/user-attachments/assets/8561b443-37c2-4bdb-b1e5-644cc4e921f3)
 
 ## Images
 
