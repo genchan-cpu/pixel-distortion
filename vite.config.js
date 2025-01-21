@@ -1,16 +1,17 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  root: './src',
-  publicDir: '../public',
-  base: '/pixel-distortion/',
+  root: "./src",
+  publicDir: "../public",
+  base: "/pixel-distortion/",
   build: {
-    outDir: '../dist',
+    outDir: "../dist",
+    emptyOutDir: true,
   },
   server: {
     host: true,
   },
-})
+});
