@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "http://genchan-cpu.github.io",
+  "homepage": "https://genchan-cpu.github.io/pixel-distortion/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
